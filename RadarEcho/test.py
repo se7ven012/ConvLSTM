@@ -59,5 +59,3 @@ for i in range(0, 11):
 
     print(sqrt(mean_squared_error(toplot_true, toplot_pred)))
     plt.savefig('image'+'_'+str(data.shape[2])+'_'+str(data.shape[3])+'_'+str(i)+'.png')
-
-# %%
